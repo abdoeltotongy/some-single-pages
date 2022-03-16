@@ -1,0 +1,459 @@
+*{
+    -wibkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0;
+    font-family: cursive;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url(../imgs/1.jpeg);
+    background-size: cover;
+}
+
+nav{
+    margin: 0px 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-brand{
+    margin: 15px;
+}
+nav ul {
+    height: 100%;
+    display: flex;
+    margin: 0;
+}
+nav ul li{list-style: none;}
+.nav-item  {
+    padding: 20px;
+    text-transform: none;
+    font-size: 18px;
+}
+.nav-item:hover{
+    cursor: pointer;
+    background-color: #dadada1c
+}
+
+.head-border{
+    width: 300px;
+    height: 150px;
+    border: 5px solid rgb(213, 216, 8);
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    padding: 0;
+}
+.head-title{
+    width: 300px;
+    height: 110px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    padding: 0px 10px;
+    background-color: #ffffffd7;
+}
+.head-title p{
+    margin: 10px 0px;
+    padding: 0px;
+    font-size: 19px;
+}
+.head-title h1{
+    padding-top: 0px;
+    margin-top: 6px;
+    color: #23d199;
+}
+
+/*******************************************************************************/
+/***************************  2 CAEDS  IMAGE ***********************************/
+.card-image {
+    width: 100%;
+}
+.card-image .container{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+}
+.card-image .second-img{
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+}
+.card-image img{
+    width: 100%;
+    height: 100%;
+}
+.card-image .second-img .card .title{
+    text-transform: uppercase;
+    color: #ef940c;
+    font-size: 30px;
+}
+
+
+/***************************  3 BG-3 ***********************************/
+.bg-3{
+    background: url(../imgs/bg-3.jpeg);
+    background-size: cover;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
+.bg-3 h5{
+    color: white;
+    margin: 0;
+}
+.bg-3 h2{
+    color: yellow;
+    margin-top: 0;
+}
+
+.bg-3 .circles{
+    height: 200px;
+    width: 80%;
+    margin: 50px auto 0px;
+    display: flex;
+
+}
+
+.bg-3 .circles .contain{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 22px;
+    margin: 0px auto;
+}
+.bg-3 .circles .contain .icon i{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+/*********************************************************************************************************/
+.others {
+    padding: 50px ;
+    position: relative;
+   text-align: center; 
+  }
+  .others h5{
+      margin: 0px;
+      padding: 0px;
+  }
+  .others h2{
+      color: #ef940c;
+      margin-top: 0px;
+      
+  }
+  .others .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+  }
+
+  .others .box {
+    padding: 20px;
+    border-radius: 6px;
+    text-align: left;
+    width: 350px;
+    margin: 20px auto;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+}
+.others .box i{
+    font-size: 25px;
+    margin-bottom: 15px
+}
+  
+.others .box h3 {
+    margin: 0 0 10px;
+    color: #23d199;
+}
+  .others .box p {
+    color: #777;
+    font-size: 14px;
+  }
+
+/***************************************************************************************/
+.special{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: relative;
+}
+.special div{
+    width: 50%;
+}
+.special .sp-img img{
+    width: 100%;
+    height: 100%;
+}
+.special .sp-text{
+    background-color: #ddd;
+    padding: 70px;
+}
+.special .sp-text h1{
+    color: #23d199;
+}
+.special  .sp-border{
+    width: 300px;
+    height: 150px;
+    border: 5px solid #23d199;
+    position: absolute;
+    top: 25%;
+    left: 34%;
+    padding: 0;
+}
+/**********************************************************************************/
+.before {
+    padding: 50px ;
+    position: relative;
+   text-align: center; 
+  }
+  .before h5{
+      margin: 0px;
+      padding: 0px;
+  }
+  .before h2{
+      color: #ef940c;
+      margin-top: 0px;
+  }
+  .before .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+  }
+.before .before-img{
+    margin: 5px;
+    width: 45%;
+    height: 200px;
+}
+.before .img-1 img{
+    width: 100%;
+    height: 100%;
+    padding: 0px 5px;
+}
+.before .img-2 {
+    display: flex;
+}
+.before .img-2 img{
+    width: 50%;
+    height: 100%;
+    padding: 0px 5px;
+}
+/*********************************************************************************************************/
+.special-4{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.special-4 .box{display: block;}
+.special-4 .box div{
+    width: 100%;
+    height: 300px;
+    flex-wrap: wrap;
+}
+.special-4 .sp-img img{
+    width: 100%;
+    height: 100%;
+}
+.special-4 .sp-text{
+    background-color: #ddd;
+    padding: 30px 70px ;
+}
+.special-4 .sp-text h5 {
+    margin-bottom: 5px;
+    color: #888;
+}
+.special-4 .sp-text h1{
+    color: #23d199;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.special-4 .sp-text p {
+    color: #888;
+}
+.special-4 .sp-text button{
+    padding: 5px 35px;
+    background-color: black;
+    color: white;
+}
+/* **************************************************************************************************/
+
+.cards-4{
+    text-align: center;
+    width: 100%;
+    padding: 100px;
+    position: relative;
+    clear: both;
+}
+.cards-4 h5 {
+    margin: 0px;
+    padding: 0px;
+}
+.cards-4 h2{
+    margin: 0px auto 50px;
+    color: #ef940c;
+}
+.cards-4 .box{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.cards-4 .card{
+    margin: 10px;
+}
+
+.card .card-body .card-title{
+    padding: 0px 15px;
+    margin: 0;
+    text-align: left;
+    color: #ef940c;
+}
+.card .card-body .card-text{
+    color: #888;
+    text-align: left;
+    padding: 0px 10px;
+} 
+.card .card-body .card-price{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px 15px;
+}
+.card .card-body .card-price h4 , .card .card-body .card-price h1{
+    margin: 0;
+    padding: 0;
+}
+/* ******************************************************************************************** */
+.search{
+    width: 100%;
+    height: 300px;
+    background: url(../imgs/5.jpeg);
+    background-size: cover;
+    text-align: center;
+    padding: 75px;
+}
+.search h5 {
+    margin: 0px;
+    padding: 0px;
+}
+.search h2{
+    margin: 0px auto 50px;
+    color: #ef940c;
+}
+.search .box{
+    background: #ffffff7a;
+    padding: 15px;
+    width: fit-content;
+    margin: auto;
+}
+.search .box input{
+    padding: 12px;
+    width: 250px;
+    margin: 0px;
+    border: none;
+    border-radius: 3px;
+}
+.search .box input::placeholder{
+    color: #777;
+}
+.search .box button{
+padding: 12px;
+width: 140px;
+margin-left: -3px;
+background: #23d199;
+border: none;
+color: white;
+}
+/***************************************************************************************************/
+.form{
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+}
+.form h5 {
+    margin: 0px;
+    padding: 0px;
+}
+.form h2{
+    margin: 0px auto 50px;
+    color: #ef940c;
+}
+.form .box{
+    padding:0px 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 400px;
+}
+.form .box .form-img{
+    background-color: #ddd;
+    width: 50%;
+    height: 85%;
+    margin-right: 20px;
+}
+
+.form .box .form-inputs{
+    width: 50%;
+    height: 100%;
+    padding: 0px 10px;
+}
+
+.form .box .form-inputs input{
+    width: 45%;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px 1px;
+    border: 2px solid #bdb6b6;
+    border-radius: 4px;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 5%);
+
+}
+.form .box .form-inputs textarea{
+    width: 91%;
+    margin: 11px;
+    height: 150px;
+    border: 2px solid #bdb6b6;
+    border-radius: 4px;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 5%);
+}
+.form .box button{
+    padding: 12px;
+    width: 91%;
+    margin-left: -3px;
+    background: #23d199;
+    border: none;
+    color: white;
+}
+
+/***************************************************************************************************/
+footer{
+    background-color: #333;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    color: #666;
+    padding: 30px;
+}
+footer span{
+    color: #999;
+}
+
+
+
+.copyright{
+    background-color: #000;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
